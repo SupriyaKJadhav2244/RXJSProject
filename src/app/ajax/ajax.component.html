@@ -1,0 +1,21 @@
+<div class="card text-center">
+    <div class="card-header"> 
+        <h3>Ajax Operator</h3>
+    </div>
+    <div class="card-body"> 
+        <table class="table table-bordered">
+            <thead> 
+                <th>Name</th>
+                <th>Age</th>
+                <th>Salary</th>
+            </thead>
+            <tbody>  
+                <tr *ngFor="let data of Info">
+                    <td>{{data.employee_name}}</td>
+                    <td>{{data.employee_age}}</td>
+                    <td>{{data.employee_salary}}</td>
+                </tr>   
+            </tbody>
+        </table> 
+    </div>
+</div>
