@@ -27,7 +27,8 @@ import { ToArrayComponent } from './to-array/to-array.component';
 import { ContactComponent } from './contact/contact.component';
 import { MergeComponent } from './merge/merge.component';
 import { MergemapComponent } from './mergemap/mergemap.component';
-import { RetryComponent } from './retry/retry.component'; 
+import { RetryComponent } from './retry/retry.component';
+import { AjaxComponent } from './ajax/ajax.component'; 
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { RetryComponent } from './retry/retry.component';
     ContactComponent,
     MergeComponent,
     MergemapComponent,
-    RetryComponent 
+    RetryComponent,
+    AjaxComponent 
   ],
   imports: [
     BrowserModule,
